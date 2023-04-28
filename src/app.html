@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Basic meta -->
+    <title>{{ .Any.DIP_COMPONENT_NAME }}</title>
+    <meta name="og:title" content="{{ .Any.DIP_COMPONENT_NAME }}" />
+    <meta
+      name="description"
+      content="{{ .Any.DIP_COMPONENT_NAME }} is a part of IOXIO Dataspace stack."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      name="og:description"
+      content="{{ .Any.DIP_COMPONENT_NAME }} is a part of IOXIO Dataspace stack."
+    />
+    <meta property="og:image" content="{{ .Any.DIP_OG_IMAGE }}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ .Any.DIP_COMPONENT_NAME }}" />
+    <meta
+      name="twitter:description"
+      content="{{ .Any.DIP_COMPONENT_NAME }} is a part of IOXIO Dataspace stack."
+    />
+    <meta name="twitter:image" content="{{ .Any.DIP_OG_IMAGE }}" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://api.fonts.coollabs.io/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://api.fonts.coollabs.io/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    />
+    %sveltekit.head%
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+</html>
