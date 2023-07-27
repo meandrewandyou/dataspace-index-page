@@ -18,7 +18,7 @@
 
 <style lang="scss">
   .layout-container {
-    font-family: Inter, sans-serif;
+    font-family: Poppins, Verdana, Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
