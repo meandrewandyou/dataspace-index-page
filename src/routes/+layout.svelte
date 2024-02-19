@@ -1,4 +1,7 @@
 <script lang="ts">
+  import "$theme/reset.css"
+  import "$theme/global.css"
+  import "$theme/variables.scss"
   import "@fontsource/poppins/100.css"
   import "@fontsource/poppins/200.css"
   import "@fontsource/poppins/300.css"
@@ -17,9 +20,6 @@
   import "@fontsource/poppins/700-italic.css"
   import "@fontsource/poppins/800-italic.css"
   import "@fontsource/poppins/900-italic.css"
-  import "$theme/reset.css"
-  import "$theme/global.css"
-  import "$theme/variables.scss"
   import Layout from "$components/Layout.svelte"
 </script>
 
