@@ -18,6 +18,7 @@
 
 <style lang="scss">
   .layout-container {
+    font-family: Inter, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
